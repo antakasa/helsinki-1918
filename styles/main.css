@@ -1,0 +1,66 @@
+body{
+	/*background-color:black;*/
+	overflow-x:hidden;
+	/*font-family:arial;*/
+	/*margin: 0px;*/
+}
+
+#article-section--3 .article-section__wrapper {
+    height: 750px;
+}
+
+#yleblock{
+	height:150px;
+	border:1px solid red;
+}
+@keyframes fadein {
+    0% { opacity: 0; }
+	80% { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+#canvas{
+	display: block;
+	float:left;
+	z-index: 0;
+	position: absolute;
+    left: 50%;
+	transform: translateX(-50%);
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	animation-name: fadein;
+    animation-duration: 5s;
+
+}
+
+video, #giph {
+	display: block;
+	float:left;
+	z-index: -1;
+	position: absolute;
+    left: 50%;
+	width: 1024px;
+	transform: translateX(-50%);
+	transition: 0.5s opacity;
+}
+.visible {
+  opacity: 1;
+  transition: opacity 1s linear 0.5s;
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
+#tiedetta{
+	font-size:2vmin;
+	display:none;
+	text-decoration:none;
+	font-weight:bold;
+	background-color:#FFF;
+	color:#000;
+	text-align:center;
+	width:100%;
+	max-width: 964px;
+	padding:25px 30px;
+	margin:0 auto;
+}
