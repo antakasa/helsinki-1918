@@ -5,8 +5,20 @@ body{
 	/*margin: 0px;*/
 }
 
+div.ydd-container {
+	background-color: #000;
+}
+
+.node-unpublished {
+    background-color: #000;
+}
+
+div#article-section--1 {
+    height: 750px;
+}
+
 .ydd-authors {
-	display: hidden;
+	display: none;
 }
 
 #article-section .article-section__wrapper {
