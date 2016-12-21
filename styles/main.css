@@ -5,12 +5,17 @@ body{
 	/*margin: 0px;*/
 }
 
+.ingressi {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 div.ydd-container {
 	background-color: #000;
 }
 
 .node-unpublished {
-    background-color: #000 !important; 
+    background-color: #000 !important;
 }
 
 div#article-section--1 {
