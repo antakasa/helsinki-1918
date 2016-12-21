@@ -6,8 +6,8 @@ body{
 }
 
 .ingressi {
-	text-align: center;
-	margin-bottom: 20px;
+	text-align: center !important;
+	margin-bottom: 20px !important;
 }
 
 div.ydd-container {
