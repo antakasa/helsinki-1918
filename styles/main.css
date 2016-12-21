@@ -10,7 +10,7 @@ div.ydd-container {
 }
 
 .node-unpublished {
-    background-color: #000;
+    background-color: #000 !important; 
 }
 
 div#article-section--1 {
