@@ -5,7 +5,11 @@ body{
 	/*margin: 0px;*/
 }
 
-#article-section--1 .article-section__wrapper {
+.ydd-authors {
+	display: hidden;
+}
+
+#article-section .article-section__wrapper {
     height: 750px;
 }
 
