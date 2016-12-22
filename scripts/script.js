@@ -45,7 +45,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,75,75);
 	// Layer 1
 	this.text = new cjs.Text("tietoa tekijöistä", "italic bold 27px 'Yleweb'", "#07FAF2");
 	this.text.lineHeight = 41;
-	this.text.lineWidth = 196;
+	this.text.lineWidth = 236;
 	this.text.setTransform(2,2);
 
 	this.shape = new cjs.Shape();
@@ -796,7 +796,7 @@ var lib, images, createjs, ss;
     } else {
       twitterTeksti = "Aijai. Helanderin perheelle olisi käynyt neuvoillani köpelösti. Kokeile sinä!";
     }
-		window.open("https://twitter.com/intent/tweet?text=" + twitterTeksti + "&hashtags=helander, suomi1917&via=ylehistoria&url=http://yle.fi/aihe/artikkeli/2016/12/22/auta-helandereita-selviamaan-vuoden-1917-helsingissa-tee-testi");
+		window.open("https://twitter.com/intent/tweet?text=" + twitterTeksti + "&hashtags=suomi1917&via=ylehistoria&url=http://yle.fi/aihe/artikkeli/2016/12/22/auta-helandereita-selviamaan-vuoden-1917-helsingissa-tee-testi");
   };
 
 
