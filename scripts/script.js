@@ -108,7 +108,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,74.8,74.8);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.text = new cjs.Text("jatka", "44px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("jatka", "44px 'Yleweb'", "#FFFFFF");
 	this.text.lineHeight = 66;
 	this.text.lineWidth = 129;
 	this.text.setTransform(10,-8);
@@ -180,6 +180,11 @@ p.nominalBounds = new cjs.Rectangle(-1,-20.6,477.4,719.1);
 	this.text.lineWidth = 100;
 	this.text.setTransform(32.3,332);
 
+	this.textLinkki = new cjs.Text("Tiedettä kaupungissa: Tieteen aikakone -tapahtuma Helsingissä 11.-12.1.2017.", "bold 24px 'Yleweb'", "#FFFFFF");
+	this.textLinkki.lineHeight = 29;
+	this.textLinkki.lineWidth = 483;
+	this.textLinkki.setTransform(4,482);
+
 	this.endtxt = new cjs.Text("10-8   Onnittelut! Olisit ollut erinomainen neuvonantaja Helanderin perheelle. Perhe olisi selviytynyt mainiosti vuoden 1917 levottomissa ja poikkeuksellisissa oloissa Helsingissä.", "24px 'Arial'", "#FFFFFF");
 	this.endtxt.name = "endtxt";
 	this.endtxt.lineHeight = 29;
@@ -193,7 +198,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-20.6,477.4,719.1);
 	this.pist.lineWidth = 486;
 	this.pist.setTransform(247.1,2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pist},{t:this.endtxt},{t:this.text},{t:this.tekijat},{t:this.fb},{t:this.twitter},{t:this.kuvatxt}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.pist},{t:this.endtxt},{t:this.text},{t:this.textLinkki}, {t:this.tekijat},{t:this.fb},{t:this.twitter},{t:this.kuvatxt}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(2,0,490.2,753);
