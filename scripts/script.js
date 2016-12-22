@@ -108,7 +108,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,74.8,74.8);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.text = new cjs.Text("jatka", "bold 44px 'Yleweb'", "#FFFFFF");
+	this.text = new cjs.Text("jatka", "44px 'Arial'", "#FFFFFF");
 	this.text.lineHeight = 66;
 	this.text.lineWidth = 129;
 	this.text.setTransform(10,-8);
@@ -601,7 +601,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,466,679.4);
 	this.text.setTransform(265.6,15);
 
 	this.aloita = new lib.aloita();
-	this.aloita.setTransform(76.2,693.3,1,1,0,0,0,49.6,14.3);
+	this.aloita.setTransform(76.2,603.3,1,1,0,0,0,49.6,14.3);
 	this.aloita.filters = [new cjs.ColorFilter(0, 0, 0, 1, 255, 255, 255, 0)];
 	this.aloita.cache(6,-12,164,72);
 	new cjs.ButtonHelper(this.aloita, 0, 1, 2, false, new lib.aloita(), 3);
@@ -609,7 +609,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,466,679.4);
 	this.text_1 = new cjs.Text("Vuonna 1917 Helsingissä elettiin hyvin poikkeuksellisia aikoja. Sinä pääset tässä pelissä neuvomaan Helanderin perhettä selviämään näissä levottomissa oloissa aina maaliskuun vallankumouksesta joulukuun itsenäisyysjulistukseen asti.\n\nHelanderin keskiluokkainen perhe asuu Siltasaaressa yksiössä. Perhe on kaksikielinen. Isä Per Helander on töissä vahtimestarina Valtionrautateillä Helsingissä ja kotoisin Sipoosta. Hänen vaimonsa Alma on perheenemäntä ja kotoisin Asikkalasta Hämeestä.\n\nAlma on 27-vuotias ja Per on 30. Heillä on kaksi lasta ja yksi tulossa lisää. Vanhin lapsista käy jo koulua ja nuorempi on Alman kanssa kotona.", "20px 'Arial'", "#FFFFFF");
 	this.text_1.lineHeight = 24;
 	this.text_1.lineWidth = 464;
-	this.text_1.setTransform(36.6,248.4);
+	this.text_1.setTransform(36.6,100.4);
 
 	this.credits = new lib.credits();
 	this.credits.setTransform(242.6,237,1,1,0,0,0,219.1,188.3);
