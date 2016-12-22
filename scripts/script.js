@@ -790,11 +790,11 @@ var lib, images, createjs, ss;
   function jaatwitter(){
 
     if (pisteet > 7) {
-      twitterTeksti = "Olisin ollut erinomainen neuvonantaja v. 1917 Helsingissä. Entä sinä?");
+      twitterTeksti = "Olisin ollut erinomainen neuvonantaja v. 1917 Helsingissä. Entä sinä?";
     } else if (pisteet > 3) {
-      twitterTeksti = "Selvisin kohtuullisen hyvin Helanderin perheen neuvonantajana. Kokeile sinäkin!");
+      twitterTeksti = "Selvisin kohtuullisen hyvin Helanderin perheen neuvonantajana. Kokeile sinäkin!";
     } else {
-      twitterTeksti = "Aijai. Helanderin perheelle olisi käynyt neuvoillani köpelösti. Kokeile sinä!");
+      twitterTeksti = "Aijai. Helanderin perheelle olisi käynyt neuvoillani köpelösti. Kokeile sinä!";
     }
 		window.open("https://twitter.com/intent/tweet?text=" + twitterTeksti + "&hashtags=helander, suomi1917&via=ylehistoria&url=http://yle.fi/aihe/artikkeli/2016/12/22/auta-helandereita-selviamaan-vuoden-1917-helsingissa-tee-testi");
   };
@@ -805,13 +805,13 @@ var lib, images, createjs, ss;
 	var fbTeksti, fbKuvaURL
   function jaafb(){
     if (pisteet > 7) {
-    	fbTeksti = "Onnittelut! Olisit ollut erinomainen neuvonantaja Helanderin perheelle. Perhe olisi selviytynyt mainiosti vuoden 1917 levottomissa ja poikkeuksellisissa oloissa Helsingissä.");
+    	fbTeksti = "Onnittelut! Olisit ollut erinomainen neuvonantaja Helanderin perheelle. Perhe olisi selviytynyt mainiosti vuoden 1917 levottomissa ja poikkeuksellisissa oloissa Helsingissä.";
 			fbKuvaURL = "http://yle.fi/plus/other/2016_historiatesti/vids/012_loppua.gif";
 		} else if (pisteet > 3) {
-      fbTeksti ="Olot olivat v. 1917 Helsingissä hyvin poikkeuksellisia ja vaikeita. Selvisit kuitenkin kohtuullisen hyvin Helanderin perheen neuvonantajana.");
+      fbTeksti ="Olot olivat v. 1917 Helsingissä hyvin poikkeuksellisia ja vaikeita. Selvisit kuitenkin kohtuullisen hyvin Helanderin perheen neuvonantajana.";
 			fbKuvaURL = "http://yle.fi/plus/other/2016_historiatesti/vids/013_loppub.gif";
 		} else {
-      fbTeksti ="Aijai. Helanderin perheelle olisi käynyt neuvoillasi köpelösti vuoden 1917 levottomissa ja poikkeuksellisissa oloissa Helsingissä.");
+      fbTeksti ="Aijai. Helanderin perheelle olisi käynyt neuvoillasi köpelösti vuoden 1917 levottomissa ja poikkeuksellisissa oloissa Helsingissä.";
 			fbKuvaURL = "http://yle.fi/plus/other/2016_historiatesti/vids/014_loppuc.gif";
 		};
 
@@ -819,7 +819,7 @@ var lib, images, createjs, ss;
 			method: 'feed',
 			picture: fbKuvaURL,
 			display: 'popup',
-			name: 'Autoin Helandereita selviämään vuoden 1917 Helsingissä. Sain ' + pisteet '/10 pistettä',
+			name: 'Autoin Helandereita selviämään vuoden 1917 Helsingissä. Sain ' + pisteet + '/10 pistettä',
 			link: 'http://yle.fi/aihe/artikkeli/2016/12/22/auta-helandereita-selviamaan-vuoden-1917-helsingissa-tee-testi',
 			description: fbTeksti
 		}, function(response) {});
