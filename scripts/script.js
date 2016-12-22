@@ -43,7 +43,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,75,75);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.text = new cjs.Text("tietoa tekijöistä", "italic bold 27px 'Yle Rg'", "#07FAF2");
+	this.text = new cjs.Text("tietoa tekijöistä", "italic bold 27px 'Yleweb'", "#07FAF2");
 	this.text.lineHeight = 41;
 	this.text.lineWidth = 196;
 	this.text.setTransform(2,2);
@@ -66,7 +66,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,43.1);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.text = new cjs.Text("sulje", "italic bold 27px 'Yle Rg'", "#07FAF2");
+	this.text = new cjs.Text("sulje", "italic bold 27px 'Yleweb'", "#07FAF2");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 41;
 	this.text.lineWidth = 196;
@@ -108,7 +108,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,74.8,74.8);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.text = new cjs.Text("jatka", "bold 44px 'Yle Rg'", "#FFFFFF");
+	this.text = new cjs.Text("jatka", "bold 44px 'Yleweb'", "#FFFFFF");
 	this.text.lineHeight = 66;
 	this.text.lineWidth = 129;
 	this.text.setTransform(10,-8);
@@ -135,7 +135,7 @@ p.nominalBounds = new cjs.Rectangle(8,-10,159.6,67.7);
 	this.seuraava.setTransform(40.6,655.1,1,1,0,0,0,49.6,14.3);
 	new cjs.ButtonHelper(this.seuraava, 0, 1, 2, false, new lib.aloita(), 3);
 
-	this.oikein = new cjs.Text("Oikein!", "bold 45px 'Yle Rg'", "#FFFFFF");
+	this.oikein = new cjs.Text("Oikein!", "bold 45px 'Yleweb'", "#FFFFFF");
 	this.oikein.name = "oikein";
 	this.oikein.lineHeight = 67;
 	this.oikein.lineWidth = 472;
@@ -175,7 +175,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-20.6,477.4,719.1);
 	this.tekijat.setTransform(245.8,691,1,1,0,0,0,100,21.5);
 	new cjs.ButtonHelper(this.tekijat, 0, 1, 2, false, new lib.tekijatbtn(), 3);
 
-	this.text = new cjs.Text("jaa:", "bold 44px 'Yle Rg'", "#FFFFFF");
+	this.text = new cjs.Text("jaa:", "bold 44px 'Yleweb'", "#FFFFFF");
 	this.text.lineHeight = 66;
 	this.text.lineWidth = 100;
 	this.text.setTransform(32.3,332);
@@ -186,7 +186,7 @@ p.nominalBounds = new cjs.Rectangle(-1,-20.6,477.4,719.1);
 	this.endtxt.lineWidth = 483;
 	this.endtxt.setTransform(4,97);
 
-	this.pist = new cjs.Text("9/10 Onnittelut!", "bold 52px 'Yle Rg'", "#07FAF2");
+	this.pist = new cjs.Text("9/10 Onnittelut!", "bold 52px 'Yleweb'", "#07FAF2");
 	this.pist.name = "pist";
 	this.pist.textAlign = "center";
 	this.pist.lineHeight = 77;
@@ -203,7 +203,7 @@ p.nominalBounds = new cjs.Rectangle(2,0,490.2,753);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 2
-	this.kuukausi = new cjs.Text("Tammikuu", "bold 45px 'Yle Rg'", "#FFFFFF");
+	this.kuukausi = new cjs.Text("Tammikuu", "bold 45px 'Yleweb'", "#FFFFFF");
 	this.kuukausi.name = "kuukausi";
 	this.kuukausi.lineHeight = 67;
 	this.kuukausi.lineWidth = 451;
@@ -594,7 +594,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,466,679.4);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Sisältö
-	this.text = new cjs.Text("Auta Helanderin perhettä selviämään \nv. 1917 Helsingissä? \nTee testi!", "bold 45px 'Yle Rg'", "#FFFFFF");
+	this.text = new cjs.Text("Auta Helanderin perhettä selviämään \nv. 1917 Helsingissä? \nTee testi!", "bold 45px 'Yleweb'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 54;
 	this.text.lineWidth = 518;
