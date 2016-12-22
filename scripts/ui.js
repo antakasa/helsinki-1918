@@ -594,7 +594,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,466,679.4);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Sisältö
-	this.text = new cjs.Text("Auta Helanderin perhettä selviämään \nv. 1917 Helsingissä? \nTee testi!", "bold 45px Yleweb", "#FFFFFF");
+	this.text = new cjs.Text("Auta Helanderin perhettä selviämään \nv. 1917 Helsingissä? \nTee testi!", "bold 25px Yleweb", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 54;
 	this.text.lineWidth = 518;
