@@ -594,11 +594,11 @@ p.nominalBounds = new cjs.Rectangle(0,0,466,679.4);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
 
 	// Sisältö
-	// this.text = new cjs.Text("Auta Helandereita selviämään \n1917 Helsingissä. \nTee testi!", "bold 45px 'Yleweb'", "#FFFFFF");
-	// this.text.textAlign = "center";
-	// this.text.lineHeight = 54;
-	// this.text.lineWidth = 518;
-	// this.text.setTransform(265.6,15);
+	this.text = new cjs.Text("", "bold 45px 'Yleweb'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 54;
+	this.text.lineWidth = 518;
+	this.text.setTransform(265.6,15);
 
 	this.aloita = new lib.aloita();
 	this.aloita.setTransform(76.2,693.3,1,1,0,0,0,49.6,14.3);
