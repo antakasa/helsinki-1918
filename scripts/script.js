@@ -834,7 +834,6 @@ var lib, images, createjs, ss;
   playVid();
   vid.addEventListener('ended', function () {
 		if (currentvid === 0 || currentvid === 10 ) {
-			console.log("hep")
 			this.pause();
 			return false
 		}
