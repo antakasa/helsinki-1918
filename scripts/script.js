@@ -748,7 +748,7 @@ var lib, images, createjs, ss;
     }
   }
   //videotausta
-  var videos=[["001_intro" ,0], ["002_maaliskuu" ,6.8], ["003_huhtikuu" ,12], ["004_toukokuu" ,6], ["005_kesakuu" ,0.01], ["006_heinakuu",13], ["007_elokuu",11], ["008_syyskuu",0.01], ["009_lokakuu",11],
+  var videos=[["001_intro" ,18], ["002_maaliskuu" ,6.8], ["003_huhtikuu" ,12], ["004_toukokuu" ,6], ["005_kesakuu" ,0.01], ["006_heinakuu",13], ["007_elokuu",11], ["008_syyskuu",0.01], ["009_lokakuu",11],
   ["010_marraskuu",4], ["011_joulukuu",0], ["012_loppua",0], ["013_loppub",9], ["014_loppuc",0]];
   var currentvid = 0;
   var vid=document.getElementById("bgvid");
@@ -833,7 +833,12 @@ var lib, images, createjs, ss;
   var vid=document.getElementById("bgvid");
   playVid();
   vid.addEventListener('ended', function () {
-    this.currentTime = videos[currentvid][1];
+		if (currentvid === 0 || currentvid === 10 ) {
+			console.log("hep")
+			this.pause();
+			return false
+		}
+		this.currentTime = videos[currentvid][1];
     this.play();
   }, false);
 
