@@ -5,6 +5,16 @@ body{
 	/*margin: 0px;*/
 }
 
+#article-section--1 p {
+    color: white;
+		background-color: #000 !important;
+}
+
+.yle-survey-option {
+    color: white;
+}
+
+
 /*videot*/
 div#article-section--2 {
     height: 1500px;
