@@ -772,17 +772,22 @@ var lib, images, createjs, ss;
 
   function playVid(){
     if(!detectmob()){
+			$('#article-section--1').css("display", "block");
+			$('#article-section--2').css("display", "hidden");
       document.getElementById("giph").style.display = 'none';
       document.getElementById("bgvid").style.display = 'block';
       vid.setAttribute("src", "http://yle.fi/plus/other/2016_historiatesti/vids/"+videos[currentvid][0]+".mp4");
       vid.play();
+			// 	console.log("detectmob")
     }else{
+			$('#article-section--2').css("display", "block");
+			$('#article-section--1').css("display", "hidden");
       document.getElementById("bgvid").style.display = 'none';
       document.getElementById("giph").style.display = 'block';
       document.getElementById("giph").setAttribute("src", "#");
       document.getElementById("giph").setAttribute("src", "http://yle.fi/plus/other/2016_historiatesti/vids/"+videos[currentvid][0]+".gif");
     }
-    vid.play();
+    //vid.play();
     vidFadeIn();
   }
 	var twitterTeksti;
@@ -826,12 +831,14 @@ var lib, images, createjs, ss;
 
 	};
 
-	if (detectmob) {
-		$('#article-section--2').css("display", "block");
-		$('#article-section--1').css("display", "hidden");
-	} else {
-		$('#article-section--1').css("display", "block");
-		$('#article-section--2').css("display", "hidden");
+	// if (detectmob()) {
+	// 	$('#article-section--2').css("display", "block");
+	// 	$('#article-section--1').css("display", "hidden");
+	// 	console.log("detectmob")
+	// } else {
+	// 	$('#article-section--1').css("display", "block");
+	// 	$('#article-section--2').css("display", "hidden");
+	// 	console.log("not detectmob")
 		init();
 		/*videon luuppaus*/
 		var vid=document.getElementById("bgvid");
@@ -845,4 +852,3 @@ var lib, images, createjs, ss;
 			this.play();
 		}, false);
 		//// UI
-	};
