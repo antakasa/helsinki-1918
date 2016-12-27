@@ -773,8 +773,8 @@ var lib, images, createjs, ss;
   function playVid(){
     if(!detectmob()){
 			console.log("no mob")
-			$('#article-section--1').css("display", "block");
-			$('#article-section--2').css("display", "hidden");
+			$('#article-section--2').css("display", "block");
+			$('#article-section--1').css("display", "hidden");
       document.getElementById("giph").style.display = 'none';
       document.getElementById("bgvid").style.display = 'block';
       vid.setAttribute("src", "http://yle.fi/plus/other/2016_historiatesti/vids/"+videos[currentvid][0]+".mp4");
@@ -784,8 +784,8 @@ var lib, images, createjs, ss;
 			console.log("mob")
 			var select = jQuery('#article-section--2')
 			console.log(select);
-			$('#article-section--2').css("display", "block");
-			$('#article-section--1').css("display", "hidden");
+			$('#article-section--1').css("display", "block");
+			$('#article-section--2').css("display", "hidden");
       document.getElementById("bgvid").style.display = 'none';
       document.getElementById("giph").style.display = 'block';
       document.getElementById("giph").setAttribute("src", "#");

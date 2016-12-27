@@ -5,8 +5,10 @@ body{
 	/*margin: 0px;*/
 }
 
-#article-section--2 {
-	display: none;
+/*videot*/
+div#article-section--2 {
+    height: 1500px;
+	  display: none;
 }
 
 #article-section--1 {
@@ -27,9 +29,6 @@ div.ydd-container {
     background-color: #000 !important;
 }
 
-div#article-section--1 {
-    height: 1500px;
-}
 
 .ydd-authors {
 	display: none;
