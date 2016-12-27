@@ -826,19 +826,23 @@ var lib, images, createjs, ss;
 
 	};
 
-
-
-  init();
-  /*videon luuppaus*/
-  var vid=document.getElementById("bgvid");
-  playVid();
-  vid.addEventListener('ended', function () {
-		if (currentvid === 0 || currentvid === 10 ) {
-			this.pause();
-			return false
-		}
-		this.currentTime = videos[currentvid][1];
-    this.play();
-  }, false);
-
-  //// UI
+	if (detectmob) {
+		$('#article-section--2').css("display", "block");
+		$('#article-section--1').css("display", "hidden");
+	} else {
+		$('#article-section--1').css("display", "block");
+		$('#article-section--2').css("display", "hidden");
+		init();
+		/*videon luuppaus*/
+		var vid=document.getElementById("bgvid");
+		playVid();
+		vid.addEventListener('ended', function () {
+			if (currentvid === 0 || currentvid === 10 ) {
+				this.pause();
+				return false
+			}
+			this.currentTime = videos[currentvid][1];
+			this.play();
+		}, false);
+		//// UI
+	};

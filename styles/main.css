@@ -5,6 +5,15 @@ body{
 	/*margin: 0px;*/
 }
 
+article-section--2 {
+	display: none;
+}
+
+
+article-section--1 {
+	display: none;
+}
+
 .ingressi {
     text-align: center;
     margin-bottom: 50px;
