@@ -782,7 +782,8 @@ var lib, images, createjs, ss;
 			// 	console.log("detectmob")
     }else{
 			console.log("mob")
-			console.log(jQuery('#article-section--2'));
+			var select = jQuery('#article-section--2')
+			console.log(select);
 			$('#article-section--2').css("display", "block");
 			$('#article-section--1').css("display", "hidden");
       document.getElementById("bgvid").style.display = 'none';
