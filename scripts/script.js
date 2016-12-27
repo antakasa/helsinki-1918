@@ -772,6 +772,7 @@ var lib, images, createjs, ss;
 
   function playVid(){
     if(!detectmob()){
+			console.log("no mob")
 			$('#article-section--1').css("display", "block");
 			$('#article-section--2').css("display", "hidden");
       document.getElementById("giph").style.display = 'none';
@@ -780,6 +781,7 @@ var lib, images, createjs, ss;
       vid.play();
 			// 	console.log("detectmob")
     }else{
+			console.log("mob")
 			$('#article-section--2').css("display", "block");
 			$('#article-section--1').css("display", "hidden");
       document.getElementById("bgvid").style.display = 'none';
