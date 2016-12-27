@@ -5,12 +5,11 @@ body{
 	/*margin: 0px;*/
 }
 
-article-section--2 {
+#article-section--2 {
 	display: none;
 }
 
-
-article-section--1 {
+#article-section--1 {
 	display: none;
 }
 
