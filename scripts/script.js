@@ -795,24 +795,23 @@ var lib, images, createjs, ss;
     } else if (pisteet > 3) {
       twitterTeksti = "Selvisin kohtuullisen hyvin Helanderin perheen neuvonantajana. Kokeile sinäkin!";
     } else {
-      twitterTeksti = "Aijai. Helanderin perheelle olisi käynyt neuvoillani köpelösti. Kokeile sinä!";
+      twitterTeksti = "Helanderin perheelle olisi käynyt neuvoillani köpelösti 1917 Helsingissä. Kokeile sinä!";
     }
-		window.open("https://twitter.com/intent/tweet?text=" + twitterTeksti + "&hashtags=suomi1917&via=ylehistoria&url=http://yle.fi/aihe/artikkeli/2016/12/22/auta-helandereita-selviamaan-vuoden-1917-helsingissa-tee-testi");
+		window.open("https://twitter.com/intent/tweet?text=" + twitterTeksti + "&hashtags=suomi100&via=yletiede&url=http://yle.fi/aihe/artikkeli/2016/12/22/auta-helandereita-selviamaan-vuoden-1917-helsingissa-tee-testi");
   };
-
 
 
 
 	var fbTeksti, fbKuvaURL
   function jaafb(){
     if (pisteet > 7) {
-    	fbTeksti = "Onnittelut! Olisit ollut erinomainen neuvonantaja Helanderin perheelle. Perhe olisi selviytynyt mainiosti vuoden 1917 levottomissa ja poikkeuksellisissa oloissa Helsingissä.";
+    	fbTeksti = "Olisin ollut erinomainen neuvonantaja Helanderin perheelle. Perhe olisi selviytynyt mainiosti vuoden 1917 levottomissa ja poikkeuksellisissa oloissa Helsingissä. Entä sinä?";
 			fbKuvaURL = "http://yle.fi/plus/other/2016_historiatesti/vids/012_loppua.gif";
 		} else if (pisteet > 3) {
-      fbTeksti ="Olot olivat v. 1917 Helsingissä hyvin poikkeuksellisia ja vaikeita. Selvisit kuitenkin kohtuullisen hyvin Helanderin perheen neuvonantajana.";
+      fbTeksti ="Olot olivat 1917 Helsingissä hyvin poikkeuksellisia ja vaikeita. Selvisin kuitenkin kohtuullisen hyvin Helanderin perheen neuvonantajana. Kokeile sinäkin!";
 			fbKuvaURL = "http://yle.fi/plus/other/2016_historiatesti/vids/013_loppub.gif";
 		} else {
-      fbTeksti ="Aijai. Helanderin perheelle olisi käynyt neuvoillasi köpelösti vuoden 1917 levottomissa ja poikkeuksellisissa oloissa Helsingissä.";
+      fbTeksti ="Helanderin perheelle olisi käynyt neuvoillani köpelösti vuoden 1917 levottomissa ja poikkeuksellisissa oloissa Helsingissä. Kokeile sinä!";
 			fbKuvaURL = "http://yle.fi/plus/other/2016_historiatesti/vids/014_loppuc.gif";
 		};
 
